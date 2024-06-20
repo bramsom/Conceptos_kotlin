@@ -131,7 +131,7 @@ fun trickOrTreat(isTrick: Boolean , extraTreat: (Int) -> String): ()->Unit {
 
      } else {
 
-         print(extraTreat(5))
+         println(extraTreat(5))
 
        return treat
 
@@ -181,7 +181,7 @@ fun trickOrTreat(isTrick: Boolean , extraTreat: ((Int) -> String)?): ()->Unit {
 
      } else {if (extraTreat != null) {
 
-      print(extraTreat(5))
+      println(extraTreat(5))
 
   }
     return treat
@@ -229,7 +229,7 @@ fun trickOrTreat(isTrick: Boolean , extraTreat: ((Int) -> String)?): ()->Unit {
 
      } else {if (extraTreat != null) {
 
-      print(extraTreat(5))
+      println (extraTreat(5))
 
   }
 
@@ -272,7 +272,7 @@ fun trickOrTreat(isTrick: Boolean , extraTreat: ((Int) -> String)?): ()->Unit {
 
      } else {if (extraTreat != null) {
 
-      print(extraTreat(5))
+      println (extraTreat(5))
 
   }
     return treat
@@ -314,7 +314,7 @@ fun trickOrTreat(isTrick: Boolean , extraTreat: ((Int) -> String)?): ()->Unit {
 
      } else {if (extraTreat != null) {
 
-      print(extraTreat(5))
+      println (extraTreat(5))
 
   }
     return treat
@@ -361,7 +361,7 @@ fun trickOrTreat(isTrick: Boolean , extraTreat: ((Int) -> String)?): ()->Unit {
 
      } else {if (extraTreat != null) {
 
-      print(extraTreat(5))
+      println (extraTreat(5))
 
   }
     return treat
@@ -379,6 +379,5 @@ val trick = {
 val treat = {
 
     println(" have a treat!")
-    
-}*/
 
+}*/
